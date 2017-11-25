@@ -1,6 +1,6 @@
 # hearty-box
 
-Hearty Box is a Flappy bird clone that uses real-time Pulse Sensor data (Beats per minute) to change different mechanics of the game.
+Hearty Box is a Flappy Bird clone that uses real-time Pulse Sensor data (Beats per minute) to change different mechanics of the game.
 
 It uses an Arduino UNO microcontroller and a Pulse Sensor (from pulsesensor.com).
 

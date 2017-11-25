@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hearty Box</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Dosis:200" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/project-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/page-style.css">
+
+	<style>
+
+		
+
+	</style>
+</head>
+<body>
+  <div class="container">
+		<header class="hero-header">
+			<div class="my-name">Hearty Box</div>
+			<div class="nav">
+				<a href="http://www.kiphlora.com"><div class="portfolio-nav">Return to Kiphlora</div></a>
+			</div>
+		</header>
+
+		<div class="hero-content-wrapper">
+			<div class="intro-content">
+				<h3>Heart rate sensor + Flappy Bird-like gameplay = Hearty Box</h3>				
+				<p>
+					I'm interested in Human-Computer Interaction (HCI, for short). This involves all kinds of things, but the main focus is on making humans and computers work together; to augment each other. 
+				</p>
+				<p>
+					Good health is vital for our society to function well. The unfortunate truth is that many of us are living unhealthy lives. Now, not all of us are unhealthy to such a degree as warranting visits to a hospital (thankfully!), but some of us are unhealthy enough to not be able to "tap into our full potential."
+				</p>
+				<p>
+					Hearty Box is a fun little game modeled after the highly successful Flappy Bird app. But, making a clone, while educational, isn't necessarily useful. So, to connect it with the HCI component, I decided to turn the game into a kind of biofeedback device using a person's heart rate.
+				</p>
+				<h3>Arduino and Processing</h3>
+				<p>
+					The first step was to acquire an Arduino microcontroller and an open-source heart rate (pulse) sensor. This was essential because I needed access to real-time sensor data rather than historical logs. I may have been able to become an app developer using other kinds of fitness devices, but since I found the open-source hardware and software early on, I didn't need to research other avenues.
+				</p>
+				<p>
+					I purchased an Arduino UNO board from Amazon and picked up my Pulse Sensor from <a href="https://www.pulsesensor.com">pulsesensor.com</a>.
+				</p>
+				<p>
+					After the items arrived, I followed the useful and detailed instructions on the pulsesensor website. Between the videos and the Arduino/Processing sketches, it couldn't have been easier to set up.
+				</p>
+				<p>
+					I loaded the provided Arduino .ino file onto the board and then hooked up the Pulse sensor. Almost like magic, it worked as intended. The next step was to figure out how to turn it into a game. Lucky me, the people from pulsesensor.com already provided a springboard for that, too, through a Processing sketch aimed at visualizing the heart rate data!
+				</p>
+				<p>
+					I gutted large portions of the graphical parts of the sketch to make room for the graphics of the game. I kept the the underlying workings of grabbing the serialized heart rate data, calculating the BPM from the raw information, implementing radio buttons, the skeleton of the mouse/keyboard event handling, and the graphical heart that came with the sketch.
+				</p>
+				<p>
+					Since I modeled the game after Flappy Bird, I knew I would need a player (the box) and some pillars (with gaps somewhere in the middle) for the player to fly through. Those were the first things I implemented. Next was collision detection; if the player collided with a pillar, it was game over, but if it made it through a gap, the player would score a point!
+				</p>
+				<p>
+					One interesting thing about the pillars is that they are procedurally generated. For those of you who want to know the details, each pillar's gap differs from the previous pillar's gap by a random number drawn from a normal distribution. For example, if the center of the first pillar's gap is at the center, then the mean of the normal distribution for the next pillar is set at that center. This means that there is a good probability that the next pillar's gap will be close to, but different from the previous one's gap. Of course, the variance plays a huge role in how those probabilities turn out, so I had to find-tune the standard deviation quite a bit to get the pillars to (mostly) look decent.
+				</p>
+				<p>
+					Another thing about the pillars is that there appear to be an infinite number of them. Of course, there are really only a handful of them existing at any given time and they get recycled after they disappear from view. It's a bit like a conveyor belt, except that those that leave the screen to the left are actually removed entirely and new ones are built to take their place beyond the screen to the right.
+				</p>
+				<p>
+					The most novel portion of the game is in the mapping between a person's real-time heart rate/beats per minute (BPM) and a couple of the game's mechanics.
+				</p>
+				<p>
+					The first one maps the BPM to the height of the gaps in the pillars. When a person's heart rate goes down, then the pillars relax, widening the gap a bit. However, when a person's heart rate increases, the pillars constrict and start closing the gap.
+				</p>
+				<p>
+					At first, the gaps were refreshed each time the heart rate changed. It looked to jerky to me because the BPM would sometimes jump 5 or 10 points, which would dramatically change the gap size instantaneously. Instead, I decided to implement a Transition system to smoothly make the gap changes. This still became jerky because of the frequency with which the heart rate sensor pumps out data. To counter this, I binned the BPM values into groups, with set gap sizes for those groups. This, coupled with the transitions allowed the gap changes to run more smoothly and predictably.
+				</p>
+				<p>
+					The second mapping takes the BPM and sets the speed of the game. As a person's BPM goes up, so does the speed of the game. As it goes down, the game slows down. This is fun to play with as it adds an interesting challenge.
+				</p>
+				<h3>Experiments and Aims</h3>
+				<p>
+					The next phase is to come up with and conduct experiments related to how the game affects fun and how it affects stress. My ultimate goal for this project is to try to find a way for players to use this game as a biofeedback device to help them learn to relax better in stressful situations.
+				</p>
+				<h3>Resources and more</h3>
+				<p>
+					Thanks a lot for reading. Below is a video demo of the game. You can find all of the code on Github, as well.
+				</p>
+				<video width="900" height="500" controls>
+  				<source src="videos/hearty-box-gameplay.mov">
+					Your browser does not support the video tag.
+				</video>
+				<p>
+					As a note, while the pulse sensor is good (especially for the very affordable price), it's not perfect. For example, in the video, toward the end where I tried to get my heart rate up, it ended up jumping around and displaying a number that was way higher than my real heart rate. That being said, I'm pleased with the results.
+				</p>
+				<p>
+					If you're interested in buying your own Arduino kit, I suggest searching on Amazon.com, as it's where I got my Sunfounder Arduino UNO R3 board. And, if you want to buy a Pulse Sensor, I recommend going <a href="https://www.pulsesensor.com">here</a>. Not only is the sensor good and affordable, they also have great tutorials on the site (and Github page) for getting started! Good luck and have fun!
+				</p>
+				
+			</div>
+		</div>
+		<footer class="hero-footer">
+			<div class="footer-info">
+			<a href="https://github.com/kiphlora/"><div>github.com/kiphlora</div></a>
+			<a href="mailto:kiphlora@gmail.com" target="_top"><div>kiphlora@gmail.com</div></a>
+			<p>&copy 2017 Brett Moran</p>
+		</div>
+		</footer>
+  </div>
+
+</body>
+</html>

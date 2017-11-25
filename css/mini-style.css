@@ -1,0 +1,287 @@
+#container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	/*justify-content: space-between;*/
+	align-items: center;
+}
+
+.ca-cave {
+	margin: 10px;
+	margin-left: 10%;
+}
+
+body {
+	background-color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+
+button {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 10px 30px;
+	margin: 5px;
+	border: 1px solid #ccc;
+	background: none;
+	border-radius: 5px;
+	font-size: 12px;
+	/*font-family: Helvetica;*/
+}
+
+button:hover {
+	transition: box-shadow 200ms;
+	box-shadow: 4px 4px 5px 0px #ccc;
+	border: 1px solid #333;
+	cursor: pointer;
+}
+
+.running {
+	display: none;
+}	
+
+.controls {
+	position: relative;
+	width: 240px;
+	/*height: calc(95vh);*/
+	margin: 5px 10px;
+	border-radius: 10px;
+	/*margin: 20px 5px;*/
+	padding: 0 15px;
+	display: flex;
+	flex-direction: column;
+	background-color: #333;
+
+}
+
+.controls * {
+	margin: 0;
+}
+
+.controls button {
+	position: relative;
+	width: 100%;
+	color: white;
+	background-color: #333;
+	margin: 5px 0;
+}
+
+.controls button:hover {
+	cursor: pointer;
+	background-color: white;
+	color: #333;
+	box-shadow: none;
+	border: 1px solid white;
+}
+
+.controls button:active {
+	cursor: pointer;
+	background-color: #eee;
+	color: #333;
+	box-shadow: none;
+	border: 1px solid #eee;
+}
+
+.controls .slider-controls {
+	/*position: absolute;*/
+	/*top: 0;*/
+	/*left: 0;*/
+	/*z-index: 10;*/
+	width: 100%;
+	border-radius: 5px;
+	/*height: 100%;*/
+	font-size: 12px;
+	margin: 0;
+	/*padding: 5px;*/
+	/*background-color: #fff;*/
+	text-align: center;
+	color: white;
+	/*pointer-events: none;*/
+	/*border: 1px solid #fff;*/
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.slider-controls button {
+	color: #fff;
+	margin: 0;
+	/*font-size: 11px;*/
+	padding: 10px;
+	pointer-events: none;
+	border: none;
+}
+
+/* 
+  styling file input idea borrowed from: 
+  https://tympanus.net/codrops/2015/09/15/styling-customizing-file-inputs-smart-way/
+*/
+.controls input[type=file] {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+}
+
+.file-input + label {
+	position: relative;
+	/*width: 100%;*/
+	color: white;
+	background-color: #333;
+	margin: 5px 0;
+
+	padding: 10px 30px;
+	border: 1px solid #ccc;
+	/*background: none;*/
+	border-radius: 5px;
+	font-size: 12px;
+	text-align: center;
+	/*
+  font-size: 1.25em;
+  font-weight: 700;
+  color: white;
+  background-color: black;
+  display: inline-block;*/
+  cursor: pointer;
+}
+
+.file-input:focus + label,
+.file-input + label:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+input[type=range]::-moz-range-track {
+  width: 100%;
+  /*height: 11.3px;*/
+  cursor: pointer;
+  /*box-shadow: 0.9px 0.9px 1.7px #999999, 0px 0px 0.9px #a6a6a6;*/
+  background: #ffffff;
+  border-radius: 3px;
+  /*border: 1.1px solid #333333;*/
+}
+
+input[type=range]::-webkit-controls-runnable-track {
+  width: 100%;
+  /*height: 11.3px;*/
+  cursor: pointer;
+  /*box-shadow: 0.9px 0.9px 1.7px #999999, 0px 0px 0.9px #a6a6a6;*/
+  background: #ffffff;
+  border-radius: 3px;
+  /*border: 1.1px solid #333333;*/
+}
+
+.slider-controls input {
+	position: relative;
+	/*position: absolute;*/
+	/*left: 0;*/
+	/*bottom: 0;*/
+	width: 90%;
+	height: 10px;
+	margin: 0;
+	padding: 5px;
+	margin: 0;
+	/*z-index: 20;*/
+	/*margin-top: 10px;*/
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+.controls > h3 {
+	color: #fff;
+	margin-top: 20px;
+	border-bottom: 2px dotted #fff;
+}
+
+.rule-buttons {
+	position: absolute;
+	left: 70px;
+	top: 100px;
+	width: 60px;
+	display: flex;
+	flex-direction: column;
+}
+
+.rule-buttons button{
+	position: relative;
+	text-align: center;
+	margin: 3px;
+	padding: 10px;
+}
+
+.detailed-overlay {
+	/*position: absolute;
+	left: 0;
+	top: 250px;*/
+	/*margin: 5px;*/
+	z-index: 100;
+	opacity: 1;
+	border-radius: 10px;
+	/*box-shadow: 5px 5px 5px #999;*/
+	width: 240px;
+	border: 1px solid #fff;
+	/*padding: 5px;*/
+	margin-top: 10px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	background-color: white;
+	pointer-events: none;
+}
+
+.detailed-overlay > div {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.detailed-overlay > div > div {
+	padding: 10px;
+}
+
+.detailed-overlay p {
+	position: relative;
+	padding: 5px 0;
+	margin: 0;
+	font-size: 12px;
+}
+
+.detailed-overlay svg {
+	position: relative;
+	width: 78px;
+	height: 78px;
+	/*padding: 10px;*/
+	/*margin: 0 auto;*/
+}
+
+.detailed-overlay h3 {
+	margin: 0;
+	padding: 0;
+	padding: 10px 0;
+	/*font-weight: 400;*/
+	background-color: #333;
+	color: #fff;
+	padding: 10px 10px;
+	/*font-family: sans-serif;*/
+}
+
+.current-state {
+	padding: 2px 4px;
+	margin-left: 5px;
+	background-color: #333;
+	border: 1px solid #333;
+}
+
+.next-state {
+	padding: 2px 4px;
+	margin-left: 18px;
+	background-color: #fff;
+	border: 1px solid #333;
+}

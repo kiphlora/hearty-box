@@ -1,0 +1,1004 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"scr",
+				"scroll-vis"
+			],
+			[
+				"cur",
+				"currentGenIndex"
+			],
+			[
+				"clock",
+				"CLOCKWISE"
+			],
+			[
+				"trip",
+				"tripletEighth"
+			],
+			[
+				"ranob",
+				"randomRuleButton"
+			],
+			[
+				"cells",
+				"cellStates"
+			],
+			[
+				"check",
+				"check-box-random-seeds"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"sand",
+				"sandboxDiv"
+			],
+			[
+				"explo",
+				"exploreNetworkDiv"
+			],
+			[
+				"state",
+				"stateTimeGridAnimDiv"
+			],
+			[
+				"disc",
+				"discreteTimeSingleRowDiv"
+			],
+			[
+				"social",
+				"socialSituationsDiv"
+			],
+			[
+				"awa",
+				"awakeasleepintroDiv"
+			],
+			[
+				"cellstat",
+				"cellStatesStr"
+			],
+			[
+				"chang",
+				"changingOfTheStatesDiv"
+			],
+			[
+				"ran",
+				"randomizeStates"
+			],
+			[
+				"soci",
+				"social-situations-rules-and-updating"
+			],
+			[
+				"two",
+				"twosExpRects"
+			],
+			[
+				"ss-c",
+				"ss-cell-groups"
+			],
+			[
+				"currentc",
+				"currentcells"
+			],
+			[
+				"distrow",
+				"discreteTimeSingleRowDiv"
+			],
+			[
+				"dis",
+				"discrete-time-single-row"
+			],
+			[
+				"awak",
+				"awake-cell-square"
+			],
+			[
+				"awake",
+				"awake-asleep-intro"
+			],
+			[
+				"cellstate",
+				"currentCellStates"
+			],
+			[
+				"allcells",
+				"allcellstates"
+			],
+			[
+				"allcs",
+				"allcellstates"
+			],
+			[
+				"circ",
+				"circularNetwork"
+			],
+			[
+				"curren",
+				"currentCellStates"
+			],
+			[
+				"ruleL",
+				"ruleLengthBaseK"
+			],
+			[
+				"ruleCom",
+				"ruleComponentsStr"
+			],
+			[
+				"cell",
+				"cellStatesStr"
+			],
+			[
+				"pad",
+				"padZerosStr"
+			],
+			[
+				"d",
+				"dec2basekStr"
+			],
+			[
+				"ruler",
+				"rulerange"
+			],
+			[
+				"rulel",
+				"ruleLengthBaseK"
+			],
+			[
+				"basek2",
+				"basek2decStr"
+			],
+			[
+				"upda",
+				"updateState"
+			],
+			[
+				"ma",
+				"maxSpeedY"
+			],
+			[
+				"xda",
+				"xdamptime"
+			],
+			[
+				"selec",
+				"selectAll"
+			],
+			[
+				"part",
+				"particle-explorer"
+			],
+			[
+				"par",
+				"particle-explorer"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"dat",
+				"dayData"
+			],
+			[
+				"str",
+				"stroke-width"
+			],
+			[
+				"r",
+				"rgbaString"
+			],
+			[
+				"p",
+				"pageYOffset"
+			],
+			[
+				"my",
+				"my-path"
+			],
+			[
+				"rgb",
+				"rgbString"
+			],
+			[
+				"rand",
+				"randNorm"
+			],
+			[
+				"trac",
+				"trackerYLoc"
+			],
+			[
+				"make",
+				"markerOffset"
+			],
+			[
+				"comet-",
+				"comet-tail-particles"
+			],
+			[
+				"otherp",
+				"othersPass"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"otherpt",
+				"othersPassThrough"
+			],
+			[
+				"get",
+				"getBoundingClientRect"
+			],
+			[
+				"set",
+				"setMagnitude"
+			],
+			[
+				"nor",
+				"normalize"
+			],
+			[
+				"dif",
+				"differenceLen"
+			],
+			[
+				"att",
+				"attractionforce"
+			],
+			[
+				"attr",
+				"attractionForce"
+			],
+			[
+				"gra",
+				"gravitationalAttractionForce"
+			],
+			[
+				"in",
+				"intersects"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"vel",
+				"velocityp"
+			],
+			[
+				"stroke",
+				"strokeStyle"
+			],
+			[
+				"ang",
+				"anglep"
+			],
+			[
+				"velo",
+				"velocityt"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"at",
+				"attract_lim"
+			],
+			[
+				"applyF",
+				"applyForceAccel"
+			],
+			[
+				"re",
+				"repelBodyForce"
+			],
+			[
+				"app",
+				"applyForcePosOnly"
+			],
+			[
+				"applyFor",
+				"applyForceJerk"
+			],
+			[
+				"g",
+				"getMagnitude"
+			],
+			[
+				"apply",
+				"applyForcePosOnly"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"sta",
+				"statusData"
+			],
+			[
+				"updat",
+				"updateStatus"
+			],
+			[
+				"upa",
+				"updateStatus"
+			],
+			[
+				"text",
+				"texture"
+			],
+			[
+				"B",
+				"MeshBasicMaterial"
+			],
+			[
+				"spo",
+				"spotlight"
+			],
+			[
+				"cap",
+				"camposy"
+			],
+			[
+				"am",
+				"ambientLight"
+			],
+			[
+				"spotlight",
+				"disableSpotlight"
+			],
+			[
+				"cam",
+				"camposx"
+			],
+			[
+				"Per",
+				"PerspectiveCamera"
+			],
+			[
+				"anim",
+				"animRotx"
+			],
+			[
+				"pa",
+				"Parameters"
+			],
+			[
+				"m",
+				"materials"
+			],
+			[
+				"0x",
+				"0x44ff44"
+			],
+			[
+				"tog",
+				"toggleXDimension"
+			],
+			[
+				"to",
+				"toggleXDimension"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"pl",
+				"plane"
+			],
+			[
+				"con",
+				"controls"
+			],
+			[
+				"a",
+				"ambientLight"
+			],
+			[
+				"plan",
+				"planeGeometry"
+			],
+			[
+				"t",
+				"time"
+			],
+			[
+				"el",
+				"elapsedTime"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"lsyste",
+				"lsystem_move"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"hea",
+				"header"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"car",
+				"card-title"
+			],
+			[
+				"ca",
+				"card-img"
+			],
+			[
+				"s",
+				"shadow"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"tran",
+				"transitionTime"
+			],
+			[
+				"content",
+				"content-main"
+			],
+			[
+				"ar",
+				"article-title"
+			],
+			[
+				"tex",
+				"text-top"
+			],
+			[
+				"ki-na",
+				"ki-nav-a"
+			],
+			[
+				"bak",
+				"background-size"
+			],
+			[
+				"im",
+				"background-image"
+			],
+			[
+				"k",
+				"ki-nav-td"
+			],
+			[
+				"ki",
+				"ki-nav-col"
+			],
+			[
+				"n",
+				"nimbus-gallery"
+			],
+			[
+				"rang",
+				"rangeRoundBand"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 335.0,
+		"selected_items":
+		[
+			[
+				"packi",
+				"Package Control: Install Package"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Short Tag"
+			],
+			[
+				"snippet		",
+				"Snippet: CDATA"
+			],
+			[
+				"Snippet: html",
+				"Snippet: html"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"cre",
+				"ColorSchemeSelector: Random Color Scheme"
+			],
+			[
+				"packai",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"ColorSchemeSelector: Random Color Scheme"
+			],
+			[
+				"",
+				"ColorSchemeSelector: Next Color Scheme"
+			],
+			[
+				"packrp",
+				"Package Control: Remove Package"
+			],
+			[
+				"packarep",
+				"Package Control: Remove Package"
+			],
+			[
+				"packr",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"packl",
+				"Package Control: List Packages"
+			],
+			[
+				"packd",
+				"Package Control: Disable Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/square-pi/css/scroll-style.css",
+		"/Applications/MAMP/htdocs/square-pi/js/ScrollTracker.js",
+		"/Applications/MAMP/htdocs/square-pi/js/chapters/draw-inscribed-circle.js",
+		"/Applications/MAMP/htdocs/square-pi/js/chapters/draw-unit-square.js",
+		"/Applications/MAMP/htdocs/square-pi/js/chapters/count-points-in-circle.js",
+		"/Applications/MAMP/htdocs/square-pi/js/chapters/add-points.js",
+		"/Applications/MAMP/htdocs/square-pi/js/chapters/init-full-algorithm.js",
+		"/Applications/MAMP/htdocs/square-pi/js/util.js",
+		"/Applications/MAMP/htdocs/Oak Trees/the-reflective-circle5a-inside/index.html",
+		"/Applications/MAMP/htdocs/kiphlora.github.io/about.html",
+		"/Applications/MAMP/htdocs/kiphlora.github.io/css/theme.css",
+		"/Applications/MAMP/htdocs/kiphlora.github.io/theme.css",
+		"/Applications/MAMP/htdocs/l-systems/js/Branch.js",
+		"/Applications/MAMP/htdocs/l-systems/js/Turtle-Graphics.js",
+		"/Applications/MAMP/htdocs/Past Material/Oak Trees/L-system-path-4-dragon-curve/L-System.v1.2.js",
+		"/Applications/MAMP/htdocs/l-systems/js/lindemus.js",
+		"/Applications/MAMP/htdocs/musical-cells/index.html",
+		"/Applications/MAMP/htdocs/musical-cells/css/style.css",
+		"/Applications/MAMP/htdocs/musical-cells/experiments/map-notes-to-columns/index.html",
+		"/Applications/MAMP/htdocs/musical-cells/experiments/map-notes-to-row-totals/index.html",
+		"/Applications/MAMP/htdocs/musical-cells/experiments/map-notes-to-floored-row-averages/index.html",
+		"/Applications/MAMP/htdocs/musical-cells/js/cellular-automata-1d.js",
+		"/Applications/MAMP/htdocs/musical-cells/experiments/map-notes-to-columns/js/cellular-automata-1d.js",
+		"/Applications/MAMP/htdocs/musical-cells/experiments/map-notes-to-floored-row-averages/js/cellular-automata-1d.js",
+		"/Applications/MAMP/htdocs/musical-cells/experiments/map-notes-to-row-totals/js/cellular-automata-1d.js",
+		"/Applications/MAMP/htdocs/social-cells/css/style.css",
+		"/Applications/MAMP/htdocs/social-cells/js/cellular-automata-1d.js",
+		"/Applications/MAMP/htdocs/social-cells/index.html",
+		"/Applications/MAMP/htdocs/musical-cells/musical-cells.sublime-project",
+		"/Applications/MAMP/htdocs/social-cells/social-cells.sublime-workspace",
+		"/Applications/MAMP/htdocs/social-cells/README.md",
+		"/Applications/MAMP/htdocs/Kiphlora/eca-ee-standard-view.html",
+		"/Applications/MAMP/htdocs/Kiphlora/Color.mod.v2.js",
+		"/Applications/MAMP/htdocs/Kiphlora/HelperFunctions2.js",
+		"/Applications/MAMP/htdocs/Kiphlora/AnthroCell.v5.js",
+		"/Applications/MAMP/htdocs/Kiphlora/eca-ee-all-beyond-eca-sandbox.html",
+		"/Applications/MAMP/htdocs/Kiphlora/all-256-rules.js",
+		"/Applications/MAMP/htdocs/Kiphlora/testing-tca-14.html",
+		"/Applications/MAMP/htdocs/Kiphlora/radial-eca.v2.html",
+		"/Applications/MAMP/htdocs/Kiphlora/standard-eca-center-gen-canvas-large.html",
+		"/Applications/MAMP/htdocs/Kiphlora/simple-ca-with-tones-2.html",
+		"/Applications/MAMP/htdocs/Kiphlora/srswor.js",
+		"/Applications/MAMP/htdocs/Kiphlora/ECA.v1.js",
+		"/Applications/MAMP/htdocs/Kiphlora/testing-ca-1.html",
+		"/Applications/MAMP/htdocs/Kiphlora/CellularAutomata.v1.js",
+		"/Applications/MAMP/htdocs/Kiphlora/testing-ca.v1.html",
+		"/Applications/MAMP/htdocs/Kiphlora/ECA.v2.js",
+		"/Applications/MAMP/htdocs/Kiphlora/standard-eca.html",
+		"/Applications/MAMP/htdocs/The Garden/Darwin's Garden/Vec2.v1.js",
+		"/Applications/MAMP/htdocs/The Garden/Darwin's Garden/TileMap.v1.js",
+		"/Applications/MAMP/htdocs/The Garden/Darwin's Garden/CodePenFork.Platformer.js",
+		"/Applications/MAMP/htdocs/The Garden/Darwin's Garden/dg.v1.html",
+		"/Applications/MAMP/htdocs/The Garden/Darwin's Garden/HelperFunctions.js",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-audio-viz-7/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-audio-viz-6/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-audio-viz-5/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-audio-viz-4/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/modular-particles-2/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-audio-viz-2/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-audio-viz-1/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/web-audio/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/forces-drag-and-gravity-2/Particle.v2.js",
+		"/Applications/MAMP/htdocs/Oak Trees/forces-drag-and-gravity-2/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/forces-drag-and-gravity-1/Particle.v1.js",
+		"/Applications/MAMP/htdocs/Oak Trees/forces-drag-and-gravity-1/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/forces-drag-and-gravity-1/Vec2.v1.js",
+		"/Applications/MAMP/htdocs/Oak Trees/forces-drag-and-gravity-1/Particle.js",
+		"/Applications/MAMP/htdocs/Oak Trees/circle-with-waves-5/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/circle-with-waves-4/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/circle-with-waves-3/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/circle-with-waves-2/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/circle-with-waves/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/modular-particles-3-filter-config/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-calendar-2/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/modular-particles-2/HelperFunctions.js",
+		"/Applications/MAMP/htdocs/Oak Trees/modular-particles-2/Particle.mod.v2.js",
+		"/Applications/MAMP/htdocs/Oak Trees/modular-particles-2/L-System.v1.2.js",
+		"/Applications/MAMP/htdocs/Oak Trees/modular-particles-1/Vec2.js",
+		"/Applications/MAMP/htdocs/Oak Trees/modular-particles-1/Particle.mod.v1.js",
+		"/Applications/MAMP/htdocs/Oak Trees/modular-particles-1/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-calendar-6/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/functions-in-parcoor2/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/functions-in-parcoor/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/L-system-path-4-dragon-curve/Particle.mod.v1.js",
+		"/Applications/MAMP/htdocs/Oak Trees/L-system-path-4-dragon-curve/L-System.v1.2.js",
+		"/Applications/MAMP/htdocs/Oak Trees/L-system-path-4-dragon-curve/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/the-reflective-circle-mix-scrolltracking/Particle.js",
+		"/Applications/MAMP/htdocs/Oak Trees/the-reflective-circle-mix-scrolltracking/Emitter.js",
+		"/Applications/MAMP/htdocs/Oak Trees/L-system-path-4-dragon-curve/Vec2.js",
+		"/Applications/MAMP/htdocs/Oak Trees/L-system-path-3-sierpinski-triangle/L-System.v1.1.js",
+		"/Applications/MAMP/htdocs/Oak Trees/L-system-path-3-sierpinski-triangle/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/L-system-path-2-koch-curve/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-calendar-9/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/L-system-path/HelperFunctions.js",
+		"/Applications/MAMP/htdocs/Oak Trees/L-system-path/Vec2.js",
+		"/Applications/MAMP/htdocs/Oak Trees/L-system-path/L-System.v1.js",
+		"/Applications/MAMP/htdocs/Oak Trees/L-system-path/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-calendar-plus-tethered-points/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-calendar-8/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-calendar-9/Color.mod.v2.js",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-calendar-8/Color.mod.js",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-calendar-8/HelperFunctions.js",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-calendar-7/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-calendar-6/Color.mod.js",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-calendar-5/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-calendar-4/Color.js",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-calendar-4/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-calendar-4/Color.mod.js",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-calendar-3/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-calendar-2/Color.js",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-calendar-2/Color.mod.js",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-calendar-2/ScrollTracker.js",
+		"/Applications/MAMP/htdocs/Oak Trees/wave-motion/HelperFunctions.js",
+		"/Applications/MAMP/htdocs/Oak Trees/wave-motion/Color.js",
+		"/Applications/MAMP/htdocs/Oak Trees/wave-motion/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/circle-with-bars-along-circumference/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/working-with-paths/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/working-with-paths-2/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/particle-system-3/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/bouncing-off-curves-1/Body.js",
+		"/Applications/MAMP/htdocs/Oak Trees/bouncing-off-curves-1/Collision.js",
+		"/Applications/MAMP/htdocs/Oak Trees/bouncing-off-curves-1/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/bouncing-off-curves-1/Vec2.js",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-paths-8-centers-of-paths/Vec2.js",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-paths-8-centers-of-paths/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-paths-7/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-paths-6/index.html",
+		"/Applications/MAMP/htdocs/Oak Trees/polar-paths/index.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"ScrollTracker",
+			"sceneInfo",
+			"scenes",
+			"sceneInfo",
+			"scene",
+			"7",
+			"				console.log(currentPos.x + \" \" + currentPos.y);\n",
+			"ruleset",
+			"v",
+			"+",
+			"−",
+			"X",
+			"x",
+			"rotate",
+			"B",
+			"max",
+			"ol",
+			"rowTotals",
+			"6",
+			"2",
+			"4",
+			"noteArr",
+			".n",
+			"{",
+			"button",
+			"999",
+			");\n",
+			"p>",
+			"p",
+			");",
+			"(",
+			"3.5",
+			"80",
+			"3.5",
+			"sandbox-controls",
+			"border",
+			".rule",
+			"1",
+			"left",
+			"rulesize",
+			"50",
+			"4",
+			"height/6",
+			"3",
+			"(0.82 * width) + (i * 0.1*width) + (b * rulesize)",
+			"(i%2)",
+			"ys[Math.floor(i/2)]",
+			"size",
+			"245",
+			"7",
+			"scenarios",
+			"48c4c4",
+			"c4c448",
+			"c448c4",
+			"rowcelllocs",
+			"900",
+			"100px",
+			"20%",
+			"header",
+			"show-prev-and-current-cell-states-over-time",
+			"allCellStatesSVG",
+			"setupAllCellStatesViz",
+			"asleep-cell",
+			"id",
+			"awakeLoc",
+			"sleepLoc",
+			"sleep",
+			"7",
+			"Math.PI/1.83",
+			"center",
+			"310",
+			"d3.select(\"svg\")",
+			"C",
+			"C1",
+			"\"C0\", ",
+			"console",
+			"decRule",
+			"update",
+			"updateG",
+			"eca",
+			"eca.update",
+			"update",
+			"padZeros",
+			"lc",
+			"r",
+			"left",
+			"10",
+			"this.currentState",
+			"true",
+			"bind",
+			"me",
+			"this",
+			"ad",
+			"window",
+			"l",
+			"Lis",
+			"Listen",
+			"true",
+			"height",
+			"draw",
+			"player.pos()",
+			"x",
+			"moveRight",
+			"moveLeft",
+			"true",
+			"x1",
+			"radius",
+			"p",
+			"pos",
+			"100",
+			"25",
+			"20",
+			"name:",
+			"name",
+			"30",
+			"31",
+			"name:",
+			"20",
+			"50",
+			"80",
+			"90",
+			"10",
+			"audioElement",
+			"var",
+			".print();",
+			"console.log",
+			"acceleration",
+			"position"
+		],
+		"highlight": false,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"Vec2.zero()",
+			"theBall",
+			">fillStyle",
+			">"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.git":
+	{
+		"height": 120.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Volumes/INFO/Web Dev/hangman.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 268.0,
+	"status_bar_visible": true
+}

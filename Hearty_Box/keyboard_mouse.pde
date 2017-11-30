@@ -34,7 +34,7 @@ void mousePressed(){
             port.clear();            // flush buffer
             port.bufferUntil('\n');  // set buffer full flag on receipt of carriage return
             serialPortFound = true;
-            gameState = 0;
+            //gameState = 0;
           }
           catch(Exception e){
             println("Couldn't open port " + Serial.list()[i]);
@@ -54,7 +54,7 @@ void mousePressed(){
   }
   else if (gameState == RESTART_GAME) {
     if (delayMouseInputBeforeReset < 0) {
-      restartGame();
+      resetGame();
       gameState = WAIT_FOR_INPUT;
     }
   }
@@ -69,40 +69,23 @@ void mouseReleased(){
 }
 
 void keyPressed(){
-
+  
+ if (gameState == HR_CALIBRATION) {
+   if (keyCode == LEFT) {
+     hrIntro = int(clamp(hrIntro - 1, hrIntroMin, hrIntroMax));
+   }
+   else if (keyCode == RIGHT) {
+     hrIntro = int(clamp(hrIntro + 1, hrIntroMin, hrIntroMax));
+   }
+ }
+ else {
+   hrIntro = 0;
+ }
+ 
  switch(key){
-   case 's':    // pressing 's' or 'S' will take a jpg of the processing window
-   case 'S':
+   case 's':
      mapSpeedToHR = !mapSpeedToHR;
      break;
-     
-   case 'r':
-   case 'R':
-     
-     //player_vy -= 3.5;
-     player_vy = -5.5;
-     break;
-
-   case 't':
-     player.x = 0;
-     player.y = 200;
-     transitionHandler.scheduleTransition(player, "x", 600,   0, 500, "cubic");
-     transitionHandler.scheduleTransition(player, "y", 500,   0, 500, "linear");
-     
-     // code the delay so these start once the above ones end
-     transitionHandler.scheduleTransition(player, "x", 600,   0, 1000, 1500, "cubic");
-     transitionHandler.scheduleTransition(player, "y", 500, 200, 1000, 2500, "linear");
-     break;
-   
-   case 'f':
-    if (gameState == PLAY_GAME) {
-      player_vy = -5.5;
-    }
-    else if (gameState == WAIT_FOR_INPUT) {
-      player_vy = -5.5;
-      gameState = PLAY_GAME;
-    }
-    break;
     
    case 'g':
      mapGapToHR = !mapGapToHR;
@@ -111,6 +94,17 @@ void keyPressed(){
    case 'd':
      debugMode = !debugMode;
      break;  
+     
+   case 'm':
+     //smoothGap = !smoothGap;
+     break;
+     
+   case 'f':
+     player_vy = -5.5;
+     if (gameState == WAIT_FOR_INPUT) {
+       gameState = PLAY_GAME;
+     }
+     break;
     
     
    default:

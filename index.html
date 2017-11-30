@@ -27,7 +27,7 @@
 			<div class="intro-content">
 				<h3>Heart rate sensor + Flappy Bird-like gameplay = Hearty Box</h3>				
 				<p>
-					I'm interested in Human-Computer Interaction (HCI, for short). This involves all kinds of things, but the main focus is on making humans and computers work together; to augment each other. 
+					I'm interested in Human-Computer Interaction (HCI, for short). This field involves all kinds of things, but one of its main goals is on helping humans and computers work together better; to augment each other. 
 				</p>
 				<p>
 					Good health is vital for our society to function well. The unfortunate truth is that many of us are living unhealthy lives. Now, not all of us are unhealthy to such a degree as warranting visits to a hospital (thankfully!), but some of us are unhealthy enough to not be able to "tap into our full potential."
@@ -42,6 +42,10 @@
 				<p>
 					I purchased an Arduino UNO board from Amazon and picked up my Pulse Sensor from <a href="https://www.pulsesensor.com">pulsesensor.com</a>.
 				</p>
+				<figure>
+					<img src="img/arduino-uno-r3-and-pulse-sensor.jpg" alt="arduino uno r3 and attached pulse sensor">
+					<figcaption>Arduino UNO R3 and attached Pulse Sensor</figcaption>
+				</figure>
 				<p>
 					After the items arrived, I followed the useful and detailed instructions on the pulsesensor website. Between the videos and the Arduino/Processing sketches, it couldn't have been easier to set up.
 				</p>
@@ -49,7 +53,7 @@
 					I loaded the provided Arduino .ino file onto the board and then hooked up the Pulse sensor. Almost like magic, it worked as intended. The next step was to figure out how to turn it into a game. Lucky me, the people from pulsesensor.com already provided a springboard for that, too, through a Processing sketch aimed at visualizing the heart rate data!
 				</p>
 				<p>
-					I gutted large portions of the graphical parts of the sketch to make room for the graphics of the game. I kept the the underlying workings of grabbing the serialized heart rate data, calculating the BPM from the raw information, implementing radio buttons, the skeleton of the mouse/keyboard event handling, and the graphical heart that came with the sketch.
+					I gutted large portions of the graphical parts of the sketch to make room for the graphics of the game. I kept the underlying workings of grabbing the serialized heart rate data, calculating the BPM from the raw information, implementing radio buttons, the skeleton of the mouse/keyboard event handling, and the graphical heart that came with the sketch.
 				</p>
 				<p>
 					Since I modeled the game after Flappy Bird, I knew I would need a player (the box) and some pillars (with gaps somewhere in the middle) for the player to fly through. Those were the first things I implemented. Next was collision detection; if the player collided with a pillar, it was game over, but if it made it through a gap, the player would score a point!

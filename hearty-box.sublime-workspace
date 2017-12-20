@@ -523,7 +523,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 8319,
+				"buffer_size": 8007,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +531,7 @@
 			"file": "css/project-theme.css",
 			"settings":
 			{
-				"buffer_size": 3664,
+				"buffer_size": 3725,
 				"line_ending": "Unix"
 			}
 		}
@@ -954,15 +954,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 8319,
+						"buffer_size": 8007,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								396,
-								312
+								410,
+								410
 							]
 						],
 						"settings":
@@ -1071,15 +1071,15 @@
 					"file": "css/project-theme.css",
 					"settings":
 					{
-						"buffer_size": 3664,
+						"buffer_size": 3725,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1812,
-								1812
+								728,
+								787
 							]
 						],
 						"settings":
@@ -1178,7 +1178,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 229.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
